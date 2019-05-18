@@ -27,11 +27,19 @@ uint8_t gHue = 0;
 
 void loop() {
   P_flag();
+  FastLED.clear();
+  P_flag();
+  FastLED.clear();
   P_2();
+  FastLED.clear();
   P_flagColors();
+  FastLED.clear();
   P_Burning();
+  FastLED.clear();
   P_Cylon();
+  FastLED.clear();
   P_Mix();
+  FastLED.clear();
 
  
   
@@ -67,7 +75,7 @@ void P_flag() {
     FastLED.show();
     delay(TIME_1);
   }
-  delay(5000);
+  delay(3000);
   for (int i = 0; i < NUM_LEDS; i++) {
     leds[i] = CRGB::Black;
     FastLED.show();
