@@ -27,7 +27,7 @@ uint8_t gHue = 0;
 
 void loop() {
   P_flag();
-  //P_2();
+  P_2();
   P_flagColors();
   P_Burning();
   P_Cylon();
