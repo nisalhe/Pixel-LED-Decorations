@@ -43,7 +43,7 @@ void P_flag() {
   }
 
   for (int i = 0; i < NUM_LEDS / 5; i++) {
-    leds[i] = CRGB::Orange;
+    leds[i] = CRGB::OrangeRed;
     FastLED.show();
     delay(TIME_1);
   }
@@ -125,7 +125,7 @@ void P_flagColors() {
   delay(1000);
 
   for (int i = 0; i < NUM_LEDS; i++) {
-    leds[i] = CRGB::Orange;
+    leds[i] = CRGB::OrangeRed;
   }
   FastLED.show();
   delay(1000);
